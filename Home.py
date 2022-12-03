@@ -1,6 +1,7 @@
 import streamlit as st
 from functions import get_todos, write_todos
 
+
 def add_todo():
     todo = st.session_state["new_todo"] + "\n"
     todos.append(todo)
